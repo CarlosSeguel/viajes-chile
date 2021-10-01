@@ -1,0 +1,21 @@
+.logo-viajes-chile{
+    width: 20px;
+    height: 20px;
+}
+.nav-background{
+    background-color: transparent;
+}
+.barra{
+    color: #09A3AF;
+    min-height: 4px;
+}
+.font-awesome{
+    background-color: #09A3AF;
+    min-height: fit-content;
+}
+.card-background{
+    background-color: #09A3AF;
+}
+.card-img-top{
+    max-height: 9rem;
+}
