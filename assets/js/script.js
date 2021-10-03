@@ -1,14 +1,14 @@
-$(funtion(){
-    $("a").click(function (event) {
-        if (this.hash !== "") {
-            event.preventDefault();
+$(document).ready(function(){
 
-            var gato = this.hash;
+    $("a").dblclick(function(){
+        $(this).css("color", "black");
+    });
 
-            $("html, body").animate({
-                scrollTop: $(gato).offset().top
-            }, 800, funtion(){
-                windows.location.hash = gato;
-            });
-        }
-    }),
+});
+
+$( function (){
+    $('[data-bs-toggle="tooltip"]').tooltip()
+} )
+$( function (){
+    $('[data-bs-toggle="tooltip"]').tooltip()
+} )
