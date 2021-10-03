@@ -3,14 +3,16 @@
     height: 20px;
 }
 .nav-background{
-    background-color: transparent;
+    background-color: #229BA5;
 }
 .barra{
     color: #09A3AF;
     min-height: 4px;
+    width: 80%+                 
+    ;
 }
 .font-awesome{
-    background-color: #09A3AF;
+    background-color: #35A4AD;
     min-height: fit-content;
 }
 .card-background{
@@ -18,4 +20,21 @@
 }
 .card-img-top{
     max-height: 9rem;
+}
+.destacados{
+    text-align: -webkit-center;
+}
+footer{
+    background-color: #229BA5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color:white;
+}
+.footer-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

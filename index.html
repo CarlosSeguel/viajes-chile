@@ -20,12 +20,12 @@
     <link rel="stylesheet" href="./assets/js/script.js">
 </head>
 
-<body>
+<body class="bg-dark">
     <!--Nav-->
     <nav class="navbar navbar-expand-lg navbar-dark nav-background fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" class="logo-viajes-chile"
-                    alt="logo-viajes-chile">  Chucao Travel</a>
+                    alt="logo-viajes-chile"> Chucao Travel</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,15 +33,15 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link" href="#">Quienes somos</a>
-                    <a class="nav-link" href="#">Destacados</a>
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#quienesomos">Quienes somos</a>
+                    <a class="nav-link" href="#destacados">Destacados</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                 </div>
             </div>
         </div>
     </nav>
     <!--carrousel de Bootstrap-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide pt-5" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -73,64 +73,61 @@
         </button>
     </div>
     <!--¿Quienes Somos?-->
-    <section class="bg-dark">
-        <h1 class="text-center pt-5 pb-3 text-white">¿Quienes somos?</h1>
+    <section id="quienesomos" class="pt-5 d-none d-sm-block">
+        <h1 class="text-center pt-5 pb-3 text-white container">¿Quienes somos?</h1>
         <hr class="barra container">
-        <section class="mb-5">
-            <div class="container pt-3 pb-3">
-                <div class="row text-white">
-                    <div class="col-4">
-                        <div class="container text-center font-awesome">
-                            <i class="fas fa-plane fa-2x"></i>
-                        </div>
-                        <div class="pt-2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro voluptas molestiae.
-                            Eius aut quod qui, rem possimus accusamus distinctio autem quisquam omnis nesciunt deserunt
-                            voluptatibus nihil doloremque iusto animi! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Pariatur, culpa eos blanditiis ad voluptatibus quibusdam recusandae saepe
-                            iure officiis nemo inventore sequi consequatur laborum praesentium ratione quaerat, fuga a
-                            vel.
-                        </div>
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-4">
+                    <div class="container text-center font-awesome">
+                        <i class="fas fa-plane fa-2x"></i>
                     </div>
-                    <div class="col-4">
-                        <div class="pb-2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro voluptas molestiae.
-                            Eius aut quod qui, rem possimus accusamus distinctio autem quisquam omnis nesciunt deserunt
-                            voluptatibus nihil doloremque iusto animi! Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit. Pariatur, culpa eos blanditiis ad voluptatibus quibusdam recusandae saepe
-                            iure officiis nemo inventore sequi consequatur laborum praesentium ratione quaerat, fuga a
-                            vel.
-                        </div>
-                        <div class="container text-center font-awesome">
-                            <i class="fas fa-caret-square-up fa-2x"></i>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="container text-center font-awesome">
-                            <i class="fas fa-route fa-2x"></i>
-                        </div>
-                        <div class="pt-2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro voluptas molestiae.
-                            Eius aut quod qui, rem possimus accusamus distinctio autem quisquam omnis nesciunt deserunt
-                            voluptatibus nihil doloremque iusto animi!
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, culpa eos blanditiis ad
-                            voluptatibus quibusdam recusandae saepe iure officiis nemo inventore sequi consequatur
-                            laborum
-                            praesentium ratione quaerat, fuga a vel.
-                        </div>
+                    <div class="pt-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro voluptas molestiae.
+                        Eius aut quod qui, rem possimus accusamus distinctio autem quisquam omnis nesciunt deserunt
+                        voluptatibus nihil doloremque iusto animi! Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Pariatur, culpa eos blanditiis ad voluptatibus quibusdam recusandae saepe
+                        iure officiis nemo inventore sequi consequatur laborum praesentium ratione quaerat, fuga a
+                        vel.
                     </div>
                 </div>
-
+                <div class="col-4">
+                    <div class="pb-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro voluptas molestiae.
+                        Eius aut quod qui, rem possimus accusamus distinctio autem quisquam omnis nesciunt deserunt
+                        voluptatibus nihil doloremque iusto animi! Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Pariatur, culpa eos blanditiis ad voluptatibus quibusdam recusandae saepe
+                        iure officiis nemo inventore sequi consequatur laborum praesentium ratione quaerat, fuga a
+                        vel.
+                    </div>
+                    <div class="container text-center font-awesome">
+                        <i class="fas fa-caret-square-up fa-2x"></i>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="container text-center font-awesome">
+                        <i class="fas fa-route fa-2x"></i>
+                    </div>
+                    <div class="pt-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro voluptas molestiae.
+                        Eius aut quod qui, rem possimus accusamus distinctio autem quisquam omnis nesciunt deserunt
+                        voluptatibus nihil doloremque iusto animi!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, culpa eos blanditiis ad
+                        voluptatibus quibusdam recusandae saepe iure officiis nemo inventore sequi consequatur
+                        laborum
+                        praesentium ratione quaerat, fuga a vel.
+                    </div>
+                </div>
             </div>
-
-        </section>
-
-        <!--Destacados-->
-        <h2 class="text-white pt-5 text-center">Destacados</h2>
+        </div>
+    </section>
+    <!--Destacados-->
+    <section id="destacados" class="destacados text-white pt-5">
+        <h2 class="text-white pt-5 text-center text-white">Destacados</h2>
         <hr class="barra container">
         <div class="container pt-3 pb-5">
-            <div class="row text-white">
-                <div class="col-3">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
                     <div class="card card-background" style="width: 14rem;">
                         <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -140,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col">
                     <div class="card card-background" style="width: 14rem;">
                         <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -150,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col">
                     <div class="card card-background" style="width: 14rem;">
                         <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -160,7 +157,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col">
                     <div class="card card-background" style="width: 14rem;">
                         <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -172,10 +169,22 @@
                 </div>
             </div>
         </div>
-        <h3 class="text-white mt-5 text-center">Contacto</h3>
-        <hr class="barra container">
-        <div id="wrapper" data-tf-widget="ckO3x2tn" data-tf-inline-on-mobile></div> <script src="//embed.typeform.com/next/embed.js"></script>
     </section>
+    <h3 id="contacto" class="text-white mt-5 text-center">Contacto</h3>
+    <hr class="barra container">
+    <!--<div id="wrapper" data-tf-widget="ckO3x2tn" data-tf-inline-on-mobile></div> <script src="//embed.typeform.com/next/embed.js"></script>-->
+    <footer class="container-fluid text-white">
+        <div class="container footer-class">
+            <h4 class="justify-content-start">VIAJES CHILE</h4>
+            <div class="favicon-footer ms-auto">
+                <a href=""><i class="fab fa-github-square fa-2x me-1 ms-auto"></i></a>
+                <a href=""><i class="fab fa-linkedin fa-2x me-1"></i></a>
+                <a href=""><i class="fab fa-twitter-square fa-2x me-1"></i></a>
+                <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
     <!--Bundle de Bootstrap 5.1.1-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
